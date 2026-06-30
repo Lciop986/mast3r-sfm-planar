@@ -1,0 +1,28 @@
+# 忽略大模型权重文件
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# 忽略你下载或克隆的大目录（如果你想让别人自己下载依赖的话）
+# 如果你想连同 dust3r/mast3r 源码一起传，就把下面这两行删掉
+dust3r/
+mast3r/
+
+# 忽略训练结果、日志和输出的重建数据
+data/
+output/
+assets/
+.checkpoints/
+checkpoints/
+
+# 忽略 Conda 环境或 Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 忽略系统与 IDE 临时文件
+.DS_Store
+.idea/
+.vscode/
+*.log

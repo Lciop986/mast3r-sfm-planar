@@ -1,0 +1,15 @@
+roma
+gradio
+matplotlib
+opencv-python
+scipy
+einops
+trimesh
+tensorboard
+plyfile
+open3d
+lpips
+transformers
+yapf
+pycocotools
+timm
